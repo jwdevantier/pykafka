@@ -1,0 +1,16 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Schemas Overview{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+  <h1>Subject '{{subject.subject}}'</h1>
+  Version '{{subject.version}}', id '{{subject.id}}'.
+  <pre>
+      {{subject.schema}}
+  </pre>
+{% endblock %}

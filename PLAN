@@ -1,0 +1,14 @@
+
+
+## Todo
+  * Host (confluent) Avro Schema Registry ?
+
+## Questions
+  * Enumerate & Document schema versioning policies
+
+## Learned
+
+
+`docker pull confluentinc/cp-schema-registry` - confluent's Avro Schema Registry service
+
+https://docs.confluent.io/current/platform.html
